@@ -1,6 +1,18 @@
 package Jifty::Plugin::WyzzEditor::Textarea;
 use base qw(Jifty::Web::Form::Field::Textarea);
 
+our $VERSION = '0.01';
+
+=head1 NAME
+
+Jifty::Plugin::WyzzEditor::Textarea - Wyzz editor for textarea
+
+=head2 render_widget
+
+html widget
+
+=cut
+
 sub render_widget {
     my $self  = shift;
     my $field;
